@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Equity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#bfbfbf">
+
+        <TextView
+            android:id="@+id/tvNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:fontFamily="@font/aldrich"
+            android:gravity="center"
+            android:text="No Calls Available Today!.."
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textStyle="italic|bold"
+            android:visibility="gone" />
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/swipe_refresh_layout">
+            <ListView
+                android:id="@+id/lvEquity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#bfbfbf"/>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+        <!--<LinearLayout
+            android:layout_width="365dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:background="@drawable/shape"
+            android:layout_marginTop="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Company Name"
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:textColor="#092a4b"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Futures"
+                        android:gravity="center"
+                        android:textStyle="bold|italic"
+                        android:textSize="18dp"
+                        android:textColor="#092a4b"
+                        android:padding="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BUY"
+                        android:textColor="#ffffff"
+                        android:textSize="21dp"
+                        android:textStyle="italic|bold"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        android:background="#38c700"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="160dp"
+                    android:padding="2px"
+                    android:layout_marginLeft="5px"
+                    android:layout_gravity="center"
+                    android:background="#999999"></View>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/zinc"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#999999"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="BUY @ 375"
+                    android:textStyle="italic|bold"
+                    android:textSize="20dp"
+                    android:textColor="#1e6103"
+                    />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="SL @ 373.50"
+                    android:textStyle="italic|bold"
+                    android:textSize="20dp"
+                    android:textColor="#c40000"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#999999"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Target 1"
+                        android:padding="5dp"
+                        android:textStyle="italic|bold"
+                        android:textSize="20dp"
+                        android:textColor="#595959"
+                        />
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text=" @ 375"
+                        android:padding="5dp"
+                        android:textStyle="italic|bold"
+                        android:textSize="20dp"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="120dp"
+                    android:background="#999999"></View>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Target2"
+                        android:padding="5dp"
+                        android:textStyle="italic|bold"
+                        android:textSize="20dp"
+                        android:textColor="#595959"
+                        />
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text=" @ 375"
+                        android:padding="5dp"
+                        android:textStyle="italic|bold"
+                        android:textSize="20dp"
+                        android:textColor="#0a0a0a"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="120dp"
+                    android:background="#999999"></View>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Target 3"
+                        android:padding="5dp"
+                        android:textStyle="italic|bold"
+                        android:textSize="20dp"
+                        android:textColor="#595959"
+                        />
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text=" @ 375"
+                        android:padding="5dp"
+                        android:textStyle="italic|bold"
+                        android:textSize="20dp"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#999999"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:text="Heavy Selling in the market on higher levels.Metals pharma are the draggers"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Target Met"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:background="#38c700"/>
+            </LinearLayout>
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "584318692719",
+    "firebase_url": "https://investnshare-309ab.firebaseio.com",
+    "project_id": "investnshare-309ab",
+    "storage_bucket": "investnshare-309ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584318692719:android:fbd4907fa6bcfc9a",
+        "android_client_info": {
+          "package_name": "com.androfocus.investnshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584318692719-ahcrsc6glhni1bvktvikj9q6bm2cesse.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androfocus.investnshare",
+            "certificate_hash": "d79ec328fdeb041ed435a46e27212405ce3541e3"
+          }
+        },
+        {
+          "client_id": "584318692719-567emum30i176jth9o0fclj7t4af9sm4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeIM5zf2K3WznSDgGfh5AScNMDWbX2W6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584318692719-567emum30i176jth9o0fclj7t4af9sm4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

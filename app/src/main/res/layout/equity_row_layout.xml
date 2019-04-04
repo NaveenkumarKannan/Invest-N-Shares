@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@drawable/shape">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Company Name"
+                    android:id="@+id/tvCompanyName"
+                    android:textStyle="bold|italic"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:textColor="#092a4b"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cash"
+                    android:id="@+id/tvType3"
+                    android:gravity="center"
+                    android:textStyle="bold|italic"
+                    android:textSize="16dp"
+                    android:textColor="#092a4b"
+                    android:padding="2dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvType2"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:background="#38c700"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:layout_gravity="center"
+                    android:text="BUY"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:textStyle="italic|bold" />
+                <TextView
+                    android:id="@+id/tvDateTime"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:padding="3dp"
+                    android:layout_gravity="center"
+                    android:text="Post @ 21-06-2018"
+                    android:textColor="#afacac"
+                    android:textSize="10dp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5px"
+                    android:background="#999999"
+                    />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/gold"
+
+                android:id="@+id/ivImage"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/llAlert">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#999999"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:stretchColumns="*"
+                >
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="BUY @ "
+                        android:id="@+id/tvBuy"
+                        android:textStyle="italic|bold"
+                        android:textSize="15dp"
+                        android:textColor="#1e6103"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="SL @ "
+                        android:id="@+id/tvSell"
+                        android:textStyle="italic|bold"
+                        android:textSize="15dp"
+                        android:textColor="@color/StopLossColor"
+                        />
+                </TableRow>
+            </TableLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#999999"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="Target 1"
+                        android:padding="5dp"
+                        android:textStyle="italic|bold"
+                        android:textSize="14dp"
+                        android:textColor="#ff8000"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text=" @ 375"
+                        android:layout_weight="1"
+                        android:id="@+id/tvTarget1"
+                        android:padding="5dp"
+                        android:textStyle="italic|bold"
+                        android:textSize="14dp"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="120dp"
+                    android:background="#999999"></View>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Target 2"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:textStyle="italic|bold"
+                        android:textSize="14dp"
+                        android:textColor="#ff8000" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text=" @ 375"
+                        android:layout_weight="1"
+                        android:id="@+id/tvTarget2"
+                        android:padding="5dp"
+                        android:textStyle="italic|bold"
+                        android:textSize="14dp"
+                        android:textColor="#0a0a0a"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="120dp"
+                    android:background="#999999"></View>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Target 3"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:textStyle="italic|bold"
+                        android:textSize="14dp"
+                        android:textColor="#ff8000"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text=" @ 375"
+                        android:id="@+id/tvTarget3"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:textStyle="italic|bold"
+                        android:textSize="14dp"
+                        android:textColor="#000000"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#999999"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvNote"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Heavy Selling in the market on higher levels.Metals pharma are the draggers"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Target Met"
+                android:gravity="center"
+                android:id="@+id/tvType4"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textStyle="bold|italic"
+                android:textColor="#38c700"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

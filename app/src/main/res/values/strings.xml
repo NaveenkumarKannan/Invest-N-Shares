@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Invest N Shares</string>
+    <string name="title_activity_main2">Invest N Shares</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">https://investinshares.in/</string>
+    <string name="nav_header_subtitle">We are for you</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+
+
+    <string name="title_activity_welcome">Blood Bank</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome!</string>
+    <string name="slide_1_desc">Spare Only 15Min and Save 3lives</string>
+
+    <string name="slide_2_title">Donate Blood</string>
+    <string name="slide_2_desc">Donate Blood for a Reason, Let the reason be Life</string>
+
+    <string name="slide_3_title">Join with Us</string>
+    <string name="slide_3_desc">Everyone need this help</string>
+
+    <string name="slide_4_title">Blood Doners</string>
+    <string name="slide_4_desc">Details with Location and Contact No</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear equityData</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_be_a_donor">Be a Donor</string>
+    <string name="title_need_a_donor">Need a Donor</string>
+    <string name="title_about">Info Point</string>
+    <string name="title_share">Share</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main3">Invest N Shares</string>
+</resources>

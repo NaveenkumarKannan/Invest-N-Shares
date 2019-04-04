@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/gold"
+                android:id="@+id/commodityivImage"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="GOLD"
+                android:id="@+id/commoditytvName"
+                android:textColor="#1a1a1a"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Target Met"
+                android:gravity="center"
+                android:id="@+id/commoditytvType4"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textStyle="bold|italic"
+                android:textColor="#38c700"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:background="#123456"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#38c700"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:text="Buy"
+                android:textColor="#ffffff"
+                android:textSize="19dp"
+                android:textStyle="italic|bold"
+                android:id="@+id/commoditytvType2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:id="@+id/llAlert">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Future"
+                    android:id="@+id/commoditytvType3"
+                    android:gravity="center"
+                    android:textStyle="bold|italic"
+                    android:textSize="16dp"
+                    android:textColor="#092a4b"
+                    android:padding="2dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="182155"
+                        android:id="@+id/commoditytvBuy"
+                        android:textColor="#131313"
+                        android:textSize="16dp"
+                        android:textStyle="italic|bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Target 1"
+                        android:textColor="#c20057"
+                        android:textSize="16dp"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:id="@+id/commoditytvTarget1"
+                        android:text="1882"
+                        android:textColor="#131313"
+                        android:textSize="16dp"
+                        android:textStyle="italic|bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Target 2"
+                        android:textColor="#c20057"
+                        android:textSize="16dp"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:id="@+id/commoditytvTarget2"
+                        android:text="1825"
+                        android:textColor="#131313"
+                        android:textSize="16dp"
+                        android:textStyle="italic|bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Target 3"
+                        android:textColor="#7b7b7b"
+                        android:textSize="16dp"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:id="@+id/commoditytvTarget3"
+                        android:text="1825"
+                        android:textColor="#7b7b7b"
+                        android:textSize="16dp"
+                        android:textStyle="italic|bold" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Stoploss:"
+                        android:id="@+id/commoditytvSell"
+                        android:textColor="@color/StopLossColor"
+                        android:textSize="16dp"
+                        android:textStyle="italic|bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:id="@+id/commoditytvDate"
+                android:text="Particle Booked at @ "
+                android:gravity="center"
+                android:textColor="#afacac"
+                android:textSize="10dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/commoditytvNote"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Heavy Selling in the market on higher levels.Metals pharma are the draggers"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#999999"/>
+</LinearLayout>

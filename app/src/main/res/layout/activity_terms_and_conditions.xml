@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TermsAndConditions">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="goBack"
+            android:layout_marginTop="2dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="Terms &amp; Conditions"
+            android:textAllCaps="false"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/back" />
+
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/terms">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        android:textStyle="italic|bold"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/aldrich"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/stroke"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:background="#ffffff"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stroke"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tillana"
+                android:padding="8dp"
+                android:text="* All stock recommendations and comments are the opinion of writer."
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:fontFamily="@font/tillana"
+        android:textColor="#ffffff"
+        android:text="* Investors should be cautious about any and all stock recommendations and should consider the source of any advice on stock selection.
+* Various factors, including personal ownership, may influence or factor into a stock analysis or opinion."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:fontFamily="@font/tillana"
+
+        android:textColor="#ffffff"
+        android:text="* All investors are advised to conduct their own independent research into individual stocks before making a purchase decision.
+* In addition, investors are advised that past stock performance is not indicative of future price action."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:fontFamily="@font/tillana"
+        android:textColor="#ffffff"
+        android:text="* You should be aware of the risks involved in stock investing, and you use the material contained herein at your own risk.
+* Neither investinshares.in nor any of its suppliers guarantee its accuracy or validity, nor are they responsible for any errors or omissions which may have occurred.
+* The analysis, ratings, and/or recommendations made by investinshares.in, and or any of its suppliers do not provide, imply, or otherwise constitute a guarantee of performance."/>
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home"
+            android:iconTint="#ffffff"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_rss"
+            android:iconTint="#ffffff"
+            android:title="News Feed" />
+        <item
+            android:id="@+id/nav_live_market"
+            android:icon="@drawable/ic_live_market"
+            android:iconTint="#ffffff"
+            android:title="Market Updates" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:iconTint="#ffffff"
+            android:title="Visit our Profile" />
+        <item
+            android:id="@+id/nav_web_site"
+            android:icon="@drawable/ic_web"
+            android:iconTint="#ffffff"
+            android:title="Go to Website" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_about"
+            android:iconTint="#ffffff"
+            android:title="About US" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_contact"
+            android:iconTint="#ffffff"
+            android:title="Contact US" />
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_terms"
+            android:iconTint="#ffffff"
+            android:title="Terms &amp; Conditions" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:iconTint="#ffffff"
+            android:title="Logout" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        <Button
+            android:gravity="center"
+            android:onClick="goBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About US"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/back"
+            android:textSize="20dp"/>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/logo"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center"
+    android:background="#000000"
+    android:padding="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START TRADING WITH US , GET FREE LIVE CALLS "
+        android:textStyle="bold|italic"
+        android:layout_marginTop="5dp"
+        android:textSize="14dp"
+        android:textColor="#ff6f00"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DREAM IT, BELIEVE IT, ACHIEVE IT "
+        android:textStyle="bold|italic"
+        android:layout_marginTop="5dp"
+        android:textSize="14dp"
+        android:textColor="#ff6f00"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="          INVESTINSHARES , We are partnered with the leading stock brokers in India . \n*  We provide you the solution and fulfill your requirements. \n* Based on your requirement of Investment we advice our clients and we open Trading and Demat accounts according to your requirement.
+* We are into the industry for almost 12 years and successfully running to fulfill the clients requirement.
+* We provide personalized services and recommendations to our clients to built their confidence level to the highest level.
+* We suggest you the right stock at the right time based on the market movement to maximize the profit.
+* We teach you the market strategy through experimental procedure.
+* Beginners to Stock markets are trained personally in a simplified way, to understand it easily.
+"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="5dp"
+        android:textSize="14dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your right Stock Broker and Trading platform of your choice."
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textColor="#f10004"
+        android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/pfg">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/rea" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/stroke1"
+                android:fontFamily="@font/im_fell_french_canon_sc"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Confused in Choosing your Stock Broker?    "
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="italic|bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/stroke1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/im_fell_french_canon_sc"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Choose Your Right Stock Broker?"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="italic|bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/im_fell_french_canon_sc"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Join Us."
+                    android:textColor="#ffaa00"
+                    android:textSize="16sp"
+                    android:textStyle="italic|bold" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="   INVESTINSHARES , We are partnered with the leading stock brokers in India . \n  Based on your requirement of Investment, we advice our clients and we open Trading and Demat accounts according to your requirement."
+                android:textColor="#00ffe1"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/aldrich"
+                android:padding="5dp"
+                android:background="@drawable/stroke"
+                android:text="Our Technology"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="italic|bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="5dp"
+            android:text="Trade, Invest, Track, Single Point Access to all Segments \n Powerful, Fast and Secure Technology across all platforms."
+            android:textColor="#ffaa00"
+            android:textStyle="italic|bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="@font/aldrich"
+            android:text="Our Values"
+            android:background="@drawable/stroke"
+            android:padding="5dp"
+            android:textColor="#ffffff"
+            android:textStyle="italic|bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="5dp"
+            android:text="Dedicated Services to Our Clients in Our Ultimate MOTTO."
+            android:textColor="#ffaa00"
+            android:textStyle="italic|bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="'Not By Words, But My Services'"
+            android:textColor="#22ff00"
+            android:textAllCaps="true"
+            android:textStyle="italic|bold"
+            android:gravity="center"
+            android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/stroke"
+                android:fontFamily="@font/aldrich"
+                android:gravity="center"
+
+                android:padding="5dp"
+                android:text="Our Presence"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="More than 12 Years in the Industry to fulfill the \n Clients Requirements"
+                android:textColor="#ffaa00"
+                android:textSize="14sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/stroke"
+                android:fontFamily="@font/aldrich"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Our Strength"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Get personalized services and Recommendations, we value our Relationship with You"
+                android:textColor="#ffaa00"
+                android:textSize="14sp"
+                android:textStyle="italic|bold" />
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
